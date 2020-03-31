@@ -19,4 +19,4 @@ npm run build
 npm run build --report
 ```
 
-Its upgraded version of todo-app-part-1[found here](https://github.com/punitkmryh/Vue.js-Todo-app-part-1), with features such as Filters like All, Active, completed, Clear Completed with animation effects.
+Its upgraded version of todo-app-part-1 [found here](https://github.com/punitkmryh/Vue.js-Todo-app-part-1), with features such as Filters like All, Active, completed, Clear Completed with animation effects.
