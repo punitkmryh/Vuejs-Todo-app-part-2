@@ -2,6 +2,19 @@
   <div id="app" class="container">
     <img src="./assets/logo.png" class="logo" />
     <h3 class="header">Vue.js Wishlist</h3>
+    <vue-typer
+      text="Hi🙋🏻 Users! Welcome to Wishlist!"
+      :repeat="Infinity"
+      :shuffle="false"
+      initial-action="erasing"
+      :pre-type-delay="70"
+      :type-delay="70"
+      :pre-erase-delay="2000"
+      :erase-delay="250"
+      erase-style="backspace"
+      :erase-on-complete="false"
+      caret-animation="expand"
+    ></vue-typer>
     <todo-list></todo-list>
   </div>
 </template>
@@ -9,12 +22,15 @@
 <script>
 import HelloWorld from "./components/HelloWorld";
 import TodoList from "./components/TodoList.vue";
+import { VueTyper } from "vue-typer";
+
 
 export default {
   name: "App",
   components: {
     HelloWorld,
-    TodoList
+    TodoList,
+    VueTyper
   }
 };
 </script>
