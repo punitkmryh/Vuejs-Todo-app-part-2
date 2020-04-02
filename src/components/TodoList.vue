@@ -303,6 +303,7 @@ button {
   position: relative;
   border: 1px solid #e4f5ef;
   flex: 1;
+  box-shadow: 0 8px 50px -13px black;
 }
 
 .input__div:focus-within .input__wrapper {
