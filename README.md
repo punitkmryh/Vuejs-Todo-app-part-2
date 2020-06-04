@@ -1,7 +1,6 @@
 # Todo(wishlist-app)part-2
 
 > A Vue.js project
-![Vue Todo App](https://github.com/punitkmryh/Todo-app-part-2/blob/master/screenshots/Screen%20Shot.png)
 ![Vue Todo App GIF](https://github.com/punitkmryh/Vuejs-Todo-app-part-2/blob/master/screenshots/Todo-Vuejs.gif)
 ## Build Setup
 
